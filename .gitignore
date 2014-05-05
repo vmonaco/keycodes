@@ -1,0 +1,7 @@
+
+# Contains non-anonymized data and some demographic information
+ignore/
+
+# Backup files
+*~
+\#*#
