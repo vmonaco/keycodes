@@ -8,49 +8,6 @@ import string
 from itertools import product
 from collections import defaultdict
 
-keyboard = {
-            'back_quote': (4, 1),
-            '1': (4,2),
-            '2': (4,3),
-            '3': (4,4),
-            '4': (4,5),
-            '5': (4,6),
-            '6': (4,7),
-            '7': (4,8),
-            '8': (4,9),
-            '9': (4,10),
-            '0': (4,11),
-            'dash': (4,12),
-            'equals': (4,13),
-            'backspace': (4,14.5),
-            
-            'tab':(3,1.25),
-            'q':(3,2.25),
-            'w':(3,3.25),
-            'e':(3,4.25),
-            'r':(3,5.25),
-            't':(3,6.25),
-            'y':(3,7.25),
-            'u':(3,8.25),
-            'i':(3,9.25),
-            'o':(3,10.25),
-            'p':(3,11.25),
-            'open_bracket':(3,12.25),
-            'close_bracket':(3,13.25),
-            'back_slash':(3,14.75),
-            
-            
-            
-            'windows': (1.5, ),
-            'alt': (),
-            'space': (),
-            'alt': (),
-            'windows': (),
-            
-            
-            'escape': (5, 1.5),
-            }
-
 keycode = defaultdict(dict)
 
 keycode['default'][0] = 'unknown'
